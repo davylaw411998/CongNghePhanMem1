@@ -8,10 +8,10 @@ router.set("views","./views");
 
 router.get('/', function (req, res) {
     const wes ={ name:'wes',age:100,cool:true};
-   //res.send('Hello World!!!');
+   res.send('Hello World!!!');
    //res.json(wes);
   // res.render('hello',{name:'wes',dog:req.query.dog});]
-   res.render('home');
+  // res.render('home');
 })
 
 module.exports=router;
